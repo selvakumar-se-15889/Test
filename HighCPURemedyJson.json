@@ -1,0 +1,1250 @@
+{
+  "workflowVersionID": "9502000000093761",
+  "createdBy": "S",
+  "name": "High CPU Remedy Workflow",
+  "supportedPlatform": 1,
+  "stages": {
+    "0": {
+      "name": "Start",
+      "childStages": [
+        "9502000000093896"
+      ],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "START",
+      "inputParameters": []
+    },
+    "9502000000093763": {
+      "name": "Untitled stage-1788418461420",
+      "childStages": [],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "END",
+      "inputParameters": [
+        {
+          "inputParamType": "endStage",
+          "actionTaken": true
+        }
+      ]
+    },
+    "9502000000093764": {
+      "name": "CPU Remedy Confirmation Engage",
+      "childStages": [
+        "9502000000093766"
+      ],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "ENGAGE",
+      "inputParameters": [
+        {
+          "inputParamType": "moduleAction",
+          "moduleActionID": "9502000000093700",
+          "variables": {}
+        }
+      ]
+    },
+    "9502000000093765": {
+      "name": "Untitled stage-1788418465689",
+      "childStages": [],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "END",
+      "inputParameters": [
+        {
+          "inputParamType": "endStage",
+          "actionTaken": true
+        }
+      ]
+    },
+    "9502000000093767": {
+      "name": "Untitled stage-1788418468563",
+      "childStages": [],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "END",
+      "inputParameters": [
+        {
+          "inputParamType": "endStage",
+          "actionTaken": true
+        }
+      ]
+    },
+    "9502000000093768": {
+      "name": "Default Remediations (2 Levers)",
+      "childStages": [
+        "9502000000093764"
+      ],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "REMOTE_ACTION",
+      "inputParameters": [
+        {
+          "inputParamType": "moduleAction",
+          "moduleActionIDs": [
+            "9502000000090390"
+          ],
+          "platform": 1,
+          "variables": {}
+        }
+      ]
+    },
+    "9502000000093769": {
+      "name": "Untitled stage-1788418458440",
+      "childStages": [],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "END",
+      "inputParameters": [
+        {
+          "inputParamType": "endStage",
+          "actionTaken": true
+        }
+      ]
+    },
+    "9502000000093770": {
+      "name": "Untitled stage-1788418443463",
+      "childStages": [],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "END",
+      "inputParameters": [
+        {
+          "inputParamType": "endStage",
+          "actionTaken": true
+        }
+      ]
+    },
+    "9502000000093814": {
+      "name": "Untitled stage-1788418461420",
+      "childStages": [],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "END",
+      "inputParameters": [
+        {
+          "inputParamType": "endStage",
+          "actionTaken": true
+        }
+      ]
+    },
+    "9502000000093815": {
+      "name": "CPU Remedy Confirmation Engage",
+      "childStages": [
+        "9502000000093817"
+      ],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "ENGAGE",
+      "inputParameters": [
+        {
+          "inputParamType": "moduleAction",
+          "moduleActionID": "9502000000093700",
+          "variables": {}
+        }
+      ]
+    },
+    "9502000000093816": {
+      "name": "Untitled stage-1788418465689",
+      "childStages": [],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "END",
+      "inputParameters": [
+        {
+          "inputParamType": "endStage",
+          "actionTaken": true
+        }
+      ]
+    },
+    "9502000000093818": {
+      "name": "Untitled stage-1788418468563",
+      "childStages": [],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "END",
+      "inputParameters": [
+        {
+          "inputParamType": "endStage",
+          "actionTaken": true
+        }
+      ]
+    },
+    "9502000000093819": {
+      "name": "Default Remediations (2 Levers)",
+      "childStages": [
+        "9502000000093815"
+      ],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "REMOTE_ACTION",
+      "inputParameters": [
+        {
+          "inputParamType": "moduleAction",
+          "moduleActionIDs": [
+            "9502000000090390"
+          ],
+          "platform": 1,
+          "variables": {}
+        }
+      ]
+    },
+    "9502000000093820": {
+      "name": "Untitled stage-1788418458440",
+      "childStages": [],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "END",
+      "inputParameters": [
+        {
+          "inputParamType": "endStage",
+          "actionTaken": true
+        }
+      ]
+    },
+    "9502000000093821": {
+      "name": "Untitled stage-1788418443463",
+      "childStages": [],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "END",
+      "inputParameters": [
+        {
+          "inputParamType": "endStage",
+          "actionTaken": true
+        }
+      ]
+    },
+    "9502000000093841": {
+      "name": "Untitled stage-1788418461420",
+      "childStages": [],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "END",
+      "inputParameters": [
+        {
+          "inputParamType": "endStage",
+          "actionTaken": true
+        }
+      ]
+    },
+    "9502000000093842": {
+      "name": "CPU Remedy Confirmation Engage",
+      "childStages": [
+        "9502000000093844"
+      ],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "ENGAGE",
+      "inputParameters": [
+        {
+          "inputParamType": "moduleAction",
+          "moduleActionID": "9502000000093700",
+          "variables": {}
+        }
+      ]
+    },
+    "9502000000093843": {
+      "name": "Untitled stage-1788418465689",
+      "childStages": [],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "END",
+      "inputParameters": [
+        {
+          "inputParamType": "endStage",
+          "actionTaken": true
+        }
+      ]
+    },
+    "9502000000093845": {
+      "name": "Untitled stage-1788418468563",
+      "childStages": [],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "END",
+      "inputParameters": [
+        {
+          "inputParamType": "endStage",
+          "actionTaken": true
+        }
+      ]
+    },
+    "9502000000093846": {
+      "name": "Default Remediations (2 Levers)",
+      "childStages": [
+        "9502000000093842"
+      ],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "REMOTE_ACTION",
+      "inputParameters": [
+        {
+          "inputParamType": "moduleAction",
+          "moduleActionIDs": [
+            "9502000000090390"
+          ],
+          "platform": 1,
+          "variables": {}
+        }
+      ]
+    },
+    "9502000000093847": {
+      "name": "Untitled stage-1788418458440",
+      "childStages": [],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "END",
+      "inputParameters": [
+        {
+          "inputParamType": "endStage",
+          "actionTaken": true
+        }
+      ]
+    },
+    "9502000000093848": {
+      "name": "Untitled stage-1788418443463",
+      "childStages": [],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "END",
+      "inputParameters": [
+        {
+          "inputParamType": "endStage",
+          "actionTaken": true
+        }
+      ]
+    },
+    "9502000000093866": {
+      "name": "Untitled stage-1788418461420",
+      "childStages": [],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "END",
+      "inputParameters": [
+        {
+          "inputParamType": "endStage",
+          "actionTaken": true
+        }
+      ]
+    },
+    "9502000000093867": {
+      "name": "CPU Remedy Confirmation Engage",
+      "childStages": [
+        "9502000000093869"
+      ],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "ENGAGE",
+      "inputParameters": [
+        {
+          "inputParamType": "moduleAction",
+          "moduleActionID": "9502000000093700",
+          "variables": {}
+        }
+      ]
+    },
+    "9502000000093868": {
+      "name": "Untitled stage-1788418465689",
+      "childStages": [],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "END",
+      "inputParameters": [
+        {
+          "inputParamType": "endStage",
+          "actionTaken": true
+        }
+      ]
+    },
+    "9502000000093870": {
+      "name": "Untitled stage-1788418468563",
+      "childStages": [],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "END",
+      "inputParameters": [
+        {
+          "inputParamType": "endStage",
+          "actionTaken": true
+        }
+      ]
+    },
+    "9502000000093871": {
+      "name": "Default Remediations (2 Levers)",
+      "childStages": [
+        "9502000000093867"
+      ],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "REMOTE_ACTION",
+      "inputParameters": [
+        {
+          "inputParamType": "moduleAction",
+          "moduleActionIDs": [
+            "9502000000090390"
+          ],
+          "platform": 1,
+          "variables": {}
+        }
+      ]
+    },
+    "9502000000093872": {
+      "name": "Untitled stage-1788418458440",
+      "childStages": [],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "END",
+      "inputParameters": [
+        {
+          "inputParamType": "endStage",
+          "actionTaken": true
+        }
+      ]
+    },
+    "9502000000093873": {
+      "name": "Untitled stage-1788418443463",
+      "childStages": [],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "END",
+      "inputParameters": [
+        {
+          "inputParamType": "endStage",
+          "actionTaken": true
+        }
+      ]
+    },
+    "9502000000093891": {
+      "name": "Untitled stage-1788418461420",
+      "childStages": [],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "END",
+      "inputParameters": [
+        {
+          "inputParamType": "endStage",
+          "actionTaken": true
+        }
+      ]
+    },
+    "9502000000093892": {
+      "name": "CPU Remedy Confirmation Engage",
+      "childStages": [
+        "9502000000093894"
+      ],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "ENGAGE",
+      "inputParameters": [
+        {
+          "inputParamType": "moduleAction",
+          "moduleActionID": "9502000000093700",
+          "variables": {}
+        }
+      ]
+    },
+    "9502000000093893": {
+      "name": "Untitled stage-1788418465689",
+      "childStages": [],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "END",
+      "inputParameters": [
+        {
+          "inputParamType": "endStage",
+          "actionTaken": true
+        }
+      ]
+    },
+    "9502000000093895": {
+      "name": "Untitled stage-1788418468563",
+      "childStages": [],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "END",
+      "inputParameters": [
+        {
+          "inputParamType": "endStage",
+          "actionTaken": true
+        }
+      ]
+    },
+    "9502000000093896": {
+      "name": "Default Remediations (2 Levers)",
+      "childStages": [
+        "9502000000093892"
+      ],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "REMOTE_ACTION",
+      "inputParameters": [
+        {
+          "inputParamType": "moduleAction",
+          "moduleActionIDs": [
+            "9502000000090390"
+          ],
+          "platform": 1,
+          "variables": {}
+        }
+      ]
+    },
+    "9502000000093897": {
+      "name": "Untitled stage-1788418458440",
+      "childStages": [],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "END",
+      "inputParameters": [
+        {
+          "inputParamType": "endStage",
+          "actionTaken": true
+        }
+      ]
+    },
+    "9502000000093898": {
+      "name": "Untitled stage-1788418443463",
+      "childStages": [],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "END",
+      "inputParameters": [
+        {
+          "inputParamType": "endStage",
+          "actionTaken": true
+        }
+      ]
+    },
+    "9502000000093766": {
+      "name": "CPU Remedy Action",
+      "childStages": [
+        "9502000000093770",
+        "9502000000093769",
+        "9502000000093765",
+        "9502000000093763",
+        "9502000000093767"
+      ],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "SWITCH",
+      "inputParameters": [
+        {
+          "inputParamType": "switch",
+          "switchCases": [
+            {
+              "caseName": "Case 1",
+              "targetStageID": "9502000000093770",
+              "criteria_pattern": "( 1 )",
+              "description": "",
+              "expressions": null,
+              "criteriaExpression": {
+                "1": {
+                  "logicalOperator": null,
+                  "comparator": "equals",
+                  "criteriaLhs": {
+                    "source": 1,
+                    "key": "${9502000000093764.output.9502000000093701}",
+                    "value": null
+                  },
+                  "criteriaRhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "9502000000093702"
+                  }
+                }
+              },
+              "targetStage": null,
+              "criteriaSource": 1
+            },
+            {
+              "caseName": "Case 2",
+              "targetStageID": "9502000000093769",
+              "criteria_pattern": "( 1 )",
+              "description": "",
+              "expressions": null,
+              "criteriaExpression": {
+                "1": {
+                  "logicalOperator": null,
+                  "comparator": "equals",
+                  "criteriaLhs": {
+                    "source": 1,
+                    "key": "${9502000000093764.output.9502000000093701}",
+                    "value": null
+                  },
+                  "criteriaRhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "9502000000093703"
+                  }
+                }
+              },
+              "targetStage": null,
+              "criteriaSource": 1
+            },
+            {
+              "caseName": "Case 3",
+              "targetStageID": "9502000000093763",
+              "criteria_pattern": "( 1 )",
+              "description": "",
+              "expressions": null,
+              "criteriaExpression": {
+                "1": {
+                  "logicalOperator": null,
+                  "comparator": "equals",
+                  "criteriaLhs": {
+                    "source": 1,
+                    "key": "${9502000000093764.output.9502000000093701}",
+                    "value": null
+                  },
+                  "criteriaRhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "9502000000093704"
+                  }
+                }
+              },
+              "targetStage": null,
+              "criteriaSource": 1
+            },
+            {
+              "caseName": "Case 4",
+              "targetStageID": "9502000000093765",
+              "criteria_pattern": "( 1 )",
+              "description": "",
+              "expressions": null,
+              "criteriaExpression": {
+                "1": {
+                  "logicalOperator": null,
+                  "comparator": "equals",
+                  "criteriaLhs": {
+                    "source": 1,
+                    "key": "${9502000000093764.output.9502000000093701}",
+                    "value": null
+                  },
+                  "criteriaRhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "9502000000093705"
+                  }
+                }
+              },
+              "targetStage": null,
+              "criteriaSource": 1
+            },
+            {
+              "caseName": "Default",
+              "targetStageID": "9502000000093767",
+              "criteria_pattern": "( 1 )",
+              "description": "",
+              "expressions": null,
+              "criteriaExpression": {
+                "1": {
+                  "logicalOperator": null,
+                  "comparator": "==",
+                  "criteriaLhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "1"
+                  },
+                  "criteriaRhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "1"
+                  }
+                }
+              },
+              "targetStage": null,
+              "criteriaSource": 1
+            }
+          ]
+        }
+      ]
+    },
+    "9502000000093817": {
+      "name": "CPU Remedy Action",
+      "childStages": [
+        "9502000000093816",
+        "9502000000093818",
+        "9502000000093821",
+        "9502000000093820",
+        "9502000000093814"
+      ],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "SWITCH",
+      "inputParameters": [
+        {
+          "inputParamType": "switch",
+          "switchCases": [
+            {
+              "caseName": "Case 1",
+              "targetStageID": "9502000000093821",
+              "criteria_pattern": "( 1 )",
+              "description": "",
+              "expressions": null,
+              "criteriaExpression": {
+                "1": {
+                  "logicalOperator": null,
+                  "comparator": "equals",
+                  "criteriaLhs": {
+                    "source": 1,
+                    "key": "${9502000000093815.output.9502000000093701}",
+                    "value": null
+                  },
+                  "criteriaRhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "9502000000093702"
+                  }
+                }
+              },
+              "targetStage": null,
+              "criteriaSource": 1
+            },
+            {
+              "caseName": "Case 2",
+              "targetStageID": "9502000000093820",
+              "criteria_pattern": "( 1 )",
+              "description": "",
+              "expressions": null,
+              "criteriaExpression": {
+                "1": {
+                  "logicalOperator": null,
+                  "comparator": "equals",
+                  "criteriaLhs": {
+                    "source": 1,
+                    "key": "${9502000000093815.output.9502000000093701}",
+                    "value": null
+                  },
+                  "criteriaRhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "9502000000093703"
+                  }
+                }
+              },
+              "targetStage": null,
+              "criteriaSource": 1
+            },
+            {
+              "caseName": "Case 3",
+              "targetStageID": "9502000000093814",
+              "criteria_pattern": "( 1 )",
+              "description": "",
+              "expressions": null,
+              "criteriaExpression": {
+                "1": {
+                  "logicalOperator": null,
+                  "comparator": "equals",
+                  "criteriaLhs": {
+                    "source": 1,
+                    "key": "${9502000000093815.output.9502000000093701}",
+                    "value": null
+                  },
+                  "criteriaRhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "9502000000093704"
+                  }
+                }
+              },
+              "targetStage": null,
+              "criteriaSource": 1
+            },
+            {
+              "caseName": "Case 4",
+              "targetStageID": "9502000000093816",
+              "criteria_pattern": "( 1 )",
+              "description": "",
+              "expressions": null,
+              "criteriaExpression": {
+                "1": {
+                  "logicalOperator": null,
+                  "comparator": "equals",
+                  "criteriaLhs": {
+                    "source": 1,
+                    "key": "${9502000000093815.output.9502000000093701}",
+                    "value": null
+                  },
+                  "criteriaRhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "9502000000093705"
+                  }
+                }
+              },
+              "targetStage": null,
+              "criteriaSource": 1
+            },
+            {
+              "caseName": "Default",
+              "targetStageID": "9502000000093818",
+              "criteria_pattern": "( 1 )",
+              "description": "",
+              "expressions": null,
+              "criteriaExpression": {
+                "1": {
+                  "logicalOperator": null,
+                  "comparator": "==",
+                  "criteriaLhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "1"
+                  },
+                  "criteriaRhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "1"
+                  }
+                }
+              },
+              "targetStage": null,
+              "criteriaSource": 1
+            }
+          ]
+        }
+      ]
+    },
+    "9502000000093869": {
+      "name": "CPU Remedy Action",
+      "childStages": [
+        "9502000000093870",
+        "9502000000093873",
+        "9502000000093868",
+        "9502000000093872",
+        "9502000000093866"
+      ],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "SWITCH",
+      "inputParameters": [
+        {
+          "inputParamType": "switch",
+          "switchCases": [
+            {
+              "caseName": "Case 1",
+              "targetStageID": "9502000000093873",
+              "criteria_pattern": "( 1 )",
+              "description": "",
+              "expressions": null,
+              "criteriaExpression": {
+                "1": {
+                  "logicalOperator": null,
+                  "comparator": "equals",
+                  "criteriaLhs": {
+                    "source": 1,
+                    "key": "${9502000000093867.output.9502000000093701}",
+                    "value": null
+                  },
+                  "criteriaRhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "9502000000093702"
+                  }
+                }
+              },
+              "targetStage": null,
+              "criteriaSource": 1
+            },
+            {
+              "caseName": "Case 2",
+              "targetStageID": "9502000000093872",
+              "criteria_pattern": "( 1 )",
+              "description": "",
+              "expressions": null,
+              "criteriaExpression": {
+                "1": {
+                  "logicalOperator": null,
+                  "comparator": "equals",
+                  "criteriaLhs": {
+                    "source": 1,
+                    "key": "${9502000000093867.output.9502000000093701}",
+                    "value": null
+                  },
+                  "criteriaRhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "9502000000093703"
+                  }
+                }
+              },
+              "targetStage": null,
+              "criteriaSource": 1
+            },
+            {
+              "caseName": "Case 3",
+              "targetStageID": "9502000000093866",
+              "criteria_pattern": "( 1 )",
+              "description": "",
+              "expressions": null,
+              "criteriaExpression": {
+                "1": {
+                  "logicalOperator": null,
+                  "comparator": "equals",
+                  "criteriaLhs": {
+                    "source": 1,
+                    "key": "${9502000000093867.output.9502000000093701}",
+                    "value": null
+                  },
+                  "criteriaRhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "9502000000093704"
+                  }
+                }
+              },
+              "targetStage": null,
+              "criteriaSource": 1
+            },
+            {
+              "caseName": "Case 4",
+              "targetStageID": "9502000000093868",
+              "criteria_pattern": "( 1 )",
+              "description": "",
+              "expressions": null,
+              "criteriaExpression": {
+                "1": {
+                  "logicalOperator": null,
+                  "comparator": "equals",
+                  "criteriaLhs": {
+                    "source": 1,
+                    "key": "${9502000000093867.output.9502000000093701}",
+                    "value": null
+                  },
+                  "criteriaRhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "9502000000093705"
+                  }
+                }
+              },
+              "targetStage": null,
+              "criteriaSource": 1
+            },
+            {
+              "caseName": "Default",
+              "targetStageID": "9502000000093870",
+              "criteria_pattern": "( 1 )",
+              "description": "",
+              "expressions": null,
+              "criteriaExpression": {
+                "1": {
+                  "logicalOperator": null,
+                  "comparator": "==",
+                  "criteriaLhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "1"
+                  },
+                  "criteriaRhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "1"
+                  }
+                }
+              },
+              "targetStage": null,
+              "criteriaSource": 1
+            }
+          ]
+        }
+      ]
+    },
+    "9502000000093844": {
+      "name": "CPU Remedy Action",
+      "childStages": [
+        "9502000000093841",
+        "9502000000093848",
+        "9502000000093845",
+        "9502000000093843",
+        "9502000000093847"
+      ],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "SWITCH",
+      "inputParameters": [
+        {
+          "inputParamType": "switch",
+          "switchCases": [
+            {
+              "caseName": "Case 1",
+              "targetStageID": "9502000000093848",
+              "criteria_pattern": "( 1 )",
+              "description": "",
+              "expressions": null,
+              "criteriaExpression": {
+                "1": {
+                  "logicalOperator": null,
+                  "comparator": "equals",
+                  "criteriaLhs": {
+                    "source": 1,
+                    "key": "${9502000000093842.output.9502000000093701}",
+                    "value": null
+                  },
+                  "criteriaRhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "9502000000093702"
+                  }
+                }
+              },
+              "targetStage": null,
+              "criteriaSource": 1
+            },
+            {
+              "caseName": "Case 2",
+              "targetStageID": "9502000000093847",
+              "criteria_pattern": "( 1 )",
+              "description": "",
+              "expressions": null,
+              "criteriaExpression": {
+                "1": {
+                  "logicalOperator": null,
+                  "comparator": "equals",
+                  "criteriaLhs": {
+                    "source": 1,
+                    "key": "${9502000000093842.output.9502000000093701}",
+                    "value": null
+                  },
+                  "criteriaRhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "9502000000093703"
+                  }
+                }
+              },
+              "targetStage": null,
+              "criteriaSource": 1
+            },
+            {
+              "caseName": "Case 3",
+              "targetStageID": "9502000000093841",
+              "criteria_pattern": "( 1 )",
+              "description": "",
+              "expressions": null,
+              "criteriaExpression": {
+                "1": {
+                  "logicalOperator": null,
+                  "comparator": "equals",
+                  "criteriaLhs": {
+                    "source": 1,
+                    "key": "${9502000000093842.output.9502000000093701}",
+                    "value": null
+                  },
+                  "criteriaRhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "9502000000093704"
+                  }
+                }
+              },
+              "targetStage": null,
+              "criteriaSource": 1
+            },
+            {
+              "caseName": "Case 4",
+              "targetStageID": "9502000000093843",
+              "criteria_pattern": "( 1 )",
+              "description": "",
+              "expressions": null,
+              "criteriaExpression": {
+                "1": {
+                  "logicalOperator": null,
+                  "comparator": "equals",
+                  "criteriaLhs": {
+                    "source": 1,
+                    "key": "${9502000000093842.output.9502000000093701}",
+                    "value": null
+                  },
+                  "criteriaRhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "9502000000093705"
+                  }
+                }
+              },
+              "targetStage": null,
+              "criteriaSource": 1
+            },
+            {
+              "caseName": "Default",
+              "targetStageID": "9502000000093845",
+              "criteria_pattern": "( 1 )",
+              "description": "",
+              "expressions": null,
+              "criteriaExpression": {
+                "1": {
+                  "logicalOperator": null,
+                  "comparator": "==",
+                  "criteriaLhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "1"
+                  },
+                  "criteriaRhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "1"
+                  }
+                }
+              },
+              "targetStage": null,
+              "criteriaSource": 1
+            }
+          ]
+        }
+      ]
+    },
+    "9502000000093894": {
+      "name": "CPU Remedy Action",
+      "childStages": [
+        "9502000000093895",
+        "9502000000093898",
+        "9502000000093893",
+        "9502000000093897",
+        "9502000000093891"
+      ],
+      "description": "",
+      "timeoutSeconds": 600,
+      "type": "SWITCH",
+      "inputParameters": [
+        {
+          "inputParamType": "switch",
+          "switchCases": [
+            {
+              "caseName": "Case 1",
+              "targetStageID": "9502000000093898",
+              "criteria_pattern": "( 1 )",
+              "description": "",
+              "expressions": null,
+              "criteriaExpression": {
+                "1": {
+                  "logicalOperator": null,
+                  "comparator": "equals",
+                  "criteriaLhs": {
+                    "source": 1,
+                    "key": "${9502000000093892.output.9502000000093701}",
+                    "value": null
+                  },
+                  "criteriaRhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "9502000000093702"
+                  }
+                }
+              },
+              "targetStage": null,
+              "criteriaSource": 1
+            },
+            {
+              "caseName": "Case 2",
+              "targetStageID": "9502000000093897",
+              "criteria_pattern": "( 1 )",
+              "description": "",
+              "expressions": null,
+              "criteriaExpression": {
+                "1": {
+                  "logicalOperator": null,
+                  "comparator": "equals",
+                  "criteriaLhs": {
+                    "source": 1,
+                    "key": "${9502000000093892.output.9502000000093701}",
+                    "value": null
+                  },
+                  "criteriaRhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "9502000000093703"
+                  }
+                }
+              },
+              "targetStage": null,
+              "criteriaSource": 1
+            },
+            {
+              "caseName": "Case 3",
+              "targetStageID": "9502000000093891",
+              "criteria_pattern": "( 1 )",
+              "description": "",
+              "expressions": null,
+              "criteriaExpression": {
+                "1": {
+                  "logicalOperator": null,
+                  "comparator": "equals",
+                  "criteriaLhs": {
+                    "source": 1,
+                    "key": "${9502000000093892.output.9502000000093701}",
+                    "value": null
+                  },
+                  "criteriaRhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "9502000000093704"
+                  }
+                }
+              },
+              "targetStage": null,
+              "criteriaSource": 1
+            },
+            {
+              "caseName": "Case 4",
+              "targetStageID": "9502000000093893",
+              "criteria_pattern": "( 1 )",
+              "description": "",
+              "expressions": null,
+              "criteriaExpression": {
+                "1": {
+                  "logicalOperator": null,
+                  "comparator": "equals",
+                  "criteriaLhs": {
+                    "source": 1,
+                    "key": "${9502000000093892.output.9502000000093701}",
+                    "value": null
+                  },
+                  "criteriaRhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "9502000000093705"
+                  }
+                }
+              },
+              "targetStage": null,
+              "criteriaSource": 1
+            },
+            {
+              "caseName": "Default",
+              "targetStageID": "9502000000093895",
+              "criteria_pattern": "( 1 )",
+              "description": "",
+              "expressions": null,
+              "criteriaExpression": {
+                "1": {
+                  "logicalOperator": null,
+                  "comparator": "==",
+                  "criteriaLhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "1"
+                  },
+                  "criteriaRhs": {
+                    "source": 0,
+                    "key": null,
+                    "value": "1"
+                  }
+                }
+              },
+              "targetStage": null,
+              "criteriaSource": 1
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "description": "",
+  "createdTime": "Sep 3, 2026 12:16 PM",
+  "trigger": {
+    "eventTrigger": false
+  },
+  "workflowID": "9502000000093674",
+  "status": 1
+}
